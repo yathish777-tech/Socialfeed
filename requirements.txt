@@ -1,0 +1,71 @@
+# ─────────────────────────────────────────────────────────────
+#  SocialFeed — Full Stack Project Requirements
+#  Run instructions are at the bottom of this file
+# ─────────────────────────────────────────────────────────────
+
+
+# ── BACKEND (Node.js / npm) ───────────────────────────────────
+# File: backend/package.json
+# Install with: cd backend && npm install
+
+bcryptjs@2.4.3
+cors@2.8.5
+dotenv@16.0.3
+express@4.18.2
+jsonwebtoken@9.0.0
+mongoose@7.3.1
+multer@1.4.5-lts.1
+
+# Dev dependency
+nodemon@3.0.1
+
+
+# ── FRONTEND (React / npm) ────────────────────────────────────
+# File: frontend/package.json
+# Install with: cd frontend && npm install
+
+@emotion/react@11.11.1
+@emotion/styled@11.11.0
+@mui/icons-material@5.14.1
+@mui/material@5.14.1
+axios@1.4.0
+date-fns@2.30.0
+react@18.2.0
+react-dom@18.2.0
+react-router-dom@6.14.1
+
+# Dev dependencies
+@vitejs/plugin-react@4.0.3
+vite@4.4.4
+
+
+# ─────────────────────────────────────────────────────────────
+#  SETUP COMMANDS (copy-paste into your terminal)
+# ─────────────────────────────────────────────────────────────
+
+# 1. Extract the ZIP and enter the project folder:
+#    cd socialfeed
+
+# 2. Install & run BACKEND:
+#    cd backend
+#    npm install
+#    cp .env.example .env
+#    (open .env and fill in MONGO_URI and JWT_SECRET)
+#    npm run dev
+
+# 3. Install & run FRONTEND (open a new terminal tab):
+#    cd frontend
+#    npm install
+#    cp .env.example .env
+#    (open .env and set VITE_API_URL=http://localhost:5000/api)
+#    npm run dev
+
+# 4. Open browser at: http://localhost:5173
+
+# ─────────────────────────────────────────────────────────────
+#  SYSTEM REQUIREMENTS
+# ─────────────────────────────────────────────────────────────
+#  Node.js  : v18 or higher   (https://nodejs.org)
+#  npm      : v9  or higher   (comes with Node.js)
+#  MongoDB  : Atlas free tier (https://cloud.mongodb.com)
+# ─────────────────────────────────────────────────────────────
