@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🌐 SocialFeed — Full Stack Social Post Application
 
 A production-ready social media feed app built with React + Node.js + MongoDB.
@@ -135,3 +136,4 @@ CLIENT_URL=http://localhost:5173
 ```
 VITE_API_URL=http://localhost:5000/api
 ```
+
